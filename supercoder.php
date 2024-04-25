@@ -80,4 +80,33 @@ echo ($space);
  echo ($space);
  $k = explode(" ", $j);
  print_r($k);
+
+
+//PHP Operators
+$l = 10;
+$m = 5;
+
+//addition operator
+echo ("$space 13. Sum is: ");
+echo ($l + $m);
+
+//subtraction operator
+echo("$space 14. Subtraction is: ");
+echo ($l-$m);
+
+//multiplication
+echo ("$space 15. Multiplication is: ");
+echo($l*$m);
+
+//division
+echo ("$space 16. Division is: ");
+echo($l/$m);
+
+//modulus
+echo("$space 17. Modulus is: ");
+echo($l%$m);
+
+//exponential
+echo("$space 18. Exponential is: ");
+echo ($l**$m);
 ?>
