@@ -109,4 +109,12 @@ echo($l%$m);
 //exponential
 echo("$space 18. Exponential is: ");
 echo ($l**$m);
+
+//php statements
+//if statement
+$grade = 80;
+if($grade>79);
+{
+echo("$space 19. Grade: A");
+}
 ?>
