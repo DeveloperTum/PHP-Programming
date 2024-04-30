@@ -1,9 +1,9 @@
 <?php
-$score = 72;
+$score = 102;
 
 switch($score)
 {
-    case $score<40:
+    case $score>0 && $score<40:
         {
             echo("Fail");
         }
